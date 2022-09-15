@@ -1,0 +1,108 @@
+/*sacar el div contenedor y cambiarlo por body con margin de 0%*/
+body{
+  margin: 0%;
+  font-family: 'Courier New', Courier, monospace;
+  color:white;
+
+}
+.divCabecera { /*sacar el ancho y agregar un padding de 4px en todos los lados;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0% 2% 0% 2%;
+  margin:0%;
+  background-color: rgba(10, 44, 5, 0.815); /*cambiar fondo cabecera*/
+  }
+
+#logo { /*scar los divs de logo y de links y cambiar el ancho de 50% a 10%*/
+  width: 15%;
+  height: 45%;
+  }
+
+.navegacion { /*agregar just-cont: center, padding-right: 5%*/
+  display: flex;
+  justify-content: center;
+  padding-right: 5%;
+  }
+/*cambiar linkshtml y agregar liststyle: none, padding-left: 3% y font-size:*/
+.linkshtml {
+  list-style: none;
+  padding:2% 5% 2% 5%;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: rgba(119, 119, 119, 0.363);
+  }
+.linkshtml:hover{
+  background-color: rgba(150, 9, 9, 0.349);
+}
+a, .linkshtml{
+  text-decoration: none; 
+  color:white;
+}
+.divCuerpo, .divTest, .divTablaLista{
+  display: flex;
+  flex-direction: column;
+  padding: 0% 2% 5% 2%;
+  background-color: rgba(9, 20, 1, 0.897);
+}
+.divCuerpo{
+  align-items: center;
+}
+
+.divTest{
+  align-items: flex-start;
+}
+
+h1{
+  text-transform: uppercase;
+  font-size: 45px;
+  text-align: center;
+}
+p{
+  font-size: 16px;
+  margin:5px;
+  text-align: justify;
+}
+.imagenZombies{
+  width: 100%;
+  margin:1%;
+}
+.kitListaImagen{
+  display: flex;
+}
+ul{
+  padding-left: 2%;
+}
+.listaKit{
+  list-style: circle;
+  font-size: 20px;
+}
+.imagen{
+  width: 30%;
+  margin-right: 5%;
+}
+table{
+  text-align: center;
+  border: 2px solid black;
+  margin:0%;
+}
+th, td{
+  border: 2px solid black;
+}
+thead{
+  background-color: grey;
+}
+.formulario{
+  width:150%;
+  margin: 3% 0% 3% 0%;  
+}
+label{
+  padding-right: 3%;
+  font-weight: bold;
+  font-style: italic;
+}
+input{
+  border: 3px inset rgb(105, 97, 97);
+  background-color: rgba(248, 244, 244, 0.753);
+}
