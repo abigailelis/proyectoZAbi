@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF8">
+        <title>Ejercicio Lampara</title>
+        <link rel="stylesheet" href="../EjercicioLampara/estilos.css">
+    </head>
+    <body>
+        <div class="divCaptcha">
+            <label for="captcha">¿Eres un robot?</label>
+            <input id="captcha" type="text" maxlenght="8" value="">
+       
+            <label for="ingresoCaptcha"></label>
+            <input id="ingresoCaptcha" type="text" maxlength="8" placeholder="Ingrese captcha respetando MAYUSC. y minusc." value="">
+       
+            <label for="botonCaptcha"></label>
+            <input type="button" id="botonCaptcha" value="Comprobar">
+        </div>
+        <p id="textoFinal">Verificacion</p>
+
+
+
+
+        <div id="fondo" class="fondoPrendido" class="fondoApagado">
+            <img id="imagenLampara" src="../EjercicioLampara/LamparaEncendida.png">
+            <div>
+                <button type="button" id="botonPrender">Prender</button>
+                <button type="button" id="botonApagar">Apagar</button>
+            </div>
+            <script type="text/javascript" src="../EjercicioLampara/main.js"></script>
+        </div>
+    </body>
+</html>
